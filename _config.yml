@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: ryanyao.photos
+title: Ryan Yao Photo Stream
 email: hello@ryanyao.design
 author:
   name: Ryan Yao
