@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Ryan Yao Photo Stream
+title: ryanyao.photos
 email: hello@ryanyao.design
 author:
   name: Ryan Yao
@@ -46,7 +46,7 @@ image_processing:
   thumbnail:
     source: photos/original
     destination: photos/thumbnail
-    resize_to_limit: [760, 760]
+    resize_to_limit: [640, 640]
     saver:
       strip: true
   tint:
