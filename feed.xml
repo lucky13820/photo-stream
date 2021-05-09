@@ -35,7 +35,7 @@
 			<updated>{{ image_path | exif: 'date_time' | date_to_xmlschema}}</updated>
 			<id>{{ site.url }}/{{ image.name | strip_extension | slugify }}/</id>
 			<content type="html">
-				<![CDATA[<figure><a href="{{ site.url }}{{ image.name | strip_extension | slugify }}/"><img src="{{ site.url }}{{ image.name | uri_escape | processed_path: 'large' }}" alt="{{ image.name | strip_extension }}" /></a></figure>]]>
+				<![CDATA[<figure><a href="{{ site.url }}/{{ image.name | strip_extension | slugify }}/"><img src="{{ site.url }}{{ image.name | uri_escape | processed_path: 'large' }}" alt="{{ image.name | strip_extension }}" /></a></figure>]]>
 			</content>
 			{% if site.author %}
 				<author>
